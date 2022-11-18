@@ -167,9 +167,9 @@ def image_summary(image_source, k, lower_bound, upper_bound):
             # if you want to change which measure to evaluate, here's the place to choose. Using Numpy's built-in
             # functions are recommended as they're usually quicker
             result =  [
-                np.mean(df_filter["h"]), 
-                np.mean(df_filter["s"]),
-                np.mean(df_filter["v"])
+                np.mean(df_result["h"]), 
+                np.mean(df_result["s"]),
+                np.mean(df_result["v"])
             ]
             
             return result
